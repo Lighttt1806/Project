@@ -1,0 +1,100 @@
+{
+  "AllProducts": [
+    {
+      "id": "1",
+      "type": "Plants",
+      "name": "Boncellensis Secullant",
+      "pricediscount": "600",
+      "price": "499",
+      "image": "images/web1.jpg"
+    },
+    {
+      "id": "3",
+      "type": "Plants",
+      "name": "Green Soil Lotus",
+      "pricediscount": "140",
+      "price": "99",
+      "image": "images/web3.jpg"
+    },
+    {
+      "id": "4",
+      "type": "Plants",
+      "name": "Money Plants",
+      "pricediscount": "70",
+      "price": "49",
+      "image": "images/web4.jpg"
+    },
+    {
+      "id": "5",
+      "type": "Cactus",
+      "name": "Old Lady Cactus",
+      "pricediscount": "140",
+      "price": "89",
+      "image": "images/web5.jpg"
+    },
+    {
+      "id": "6",
+      "type": "Plants",
+      "name": "Plarro Quisquam",
+      "pricediscount": "99",
+      "price": "69",
+      "image": "images/web6.jpg"
+    },
+    {
+      "id": "7",
+      "type": "Plants",
+      "name": "Rattle Snake Tail",
+      "pricediscount": "200",
+      "price": "169",
+      "image": "images/web7.jpg"
+    },
+    {
+      "id": "8",
+      "type": "Cactus",
+      "name": "Star Cactus",
+      "pricediscount": "160",
+      "price": "129",
+      "image": "images/web8.jpg"
+    },
+    {
+      "id": "2",
+      "type": "Cactus",
+      "name": "Cliestocactus",
+      "pricediscount": "140",
+      "price": "79",
+      "image": "images/web2.jpg"
+    },
+    {
+      "id": "10",
+      "type": "Cactus",
+      "name": "Ball Cactus",
+      "pricediscount": "140",
+      "price": "59",
+      "image": "images/web10.jpg"
+    },
+    {
+      "id": "11",
+      "type": "Cactus",
+      "name": "Mini Astrophytum",
+      "pricediscount": "100",
+      "price": "89",
+      "image": "images/web11.jpg"
+    },
+    {
+      "id": "12",
+      "type": "Cactus",
+      "name": "Mini San Pedro Cactus",
+      "pricediscount": "200",
+      "price": "139",
+      "image": "images/web12.jpg"
+    },
+    {
+      "id": "9",
+      "type": "Plants",
+      "name": "Aluminum Plant",
+      "pricediscount": "200",
+      "price": "79",
+      "image": "images/web9.jpg"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <title>Document</title>
+</head>
+<body class=" w-100 h-auto" style="position: relative;">
+  <div class="w-100" style="position: fixed;top: 0;z-index: 999;background-color: whitesmoke;">
+    <header class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img data-aos="fade-right" data-aos-duration="1500" src="logo2.png" alt="">
+          </a>
+          <div data-aos="fade-down" data-aos-duration="2000" class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" style="color: orangered;" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Store</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Plants.html">Plants</a></li>
+                  <hr>
+                  <li><a class="dropdown-item" href="Cactus.html">Cactus</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a class="nav-link" href="account.html">My Account</a>
+              </li>
+              <li>
+                <a class="nav-link" href="Product.html">Products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="icons d-flex" data-aos="fade-left" data-aos-duration="2000">
+            <div class="iconCart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div class="totalQuantity">0</div>
+            </div>
+            <div>
+              <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+          </div>
+          <div class="cart p-2">
+            <div class="d-flex mt-3">
+              <h3>Shopping Cart</h3>
+              <button class="close">
+                <i class="fa-solid fa-x"></i>
+              </button>
+            </div>
+            <div class="listCart">
+                <div class="item">
+                    <img src="images/web1.jpg">
+                    <div class="content">
+                        <div class="name">Boncellensis Secullant</div>
+                        <div class="price">$ 49</div>
+                    </div>
+                    <div class="quantity">
+                        <button><i class="fa-solid fa-minus"></i></button>
+                        <span class="value">3</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex">
+              <h5>Total Price:</h5>
+              <div class="totalPrice mx-3"></div>
+            </div>
+            <div class="buttons">
+                <div class="view">
+                  <a href="view.html">VIEW CART</a>
+                </div>
+                <div class="checkout">
+                    <a href="checkout.html">CHECKOUT CART</a>
+                </div>
+            </div>
+        </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+  <!--  -->
+  <div class="intro w-100 h-75" style="background-image: url(https://static.vecteezy.com/system/resources/previews/029/562/629/non_2x/minimalist-background-with-sansevieria-free-photo.jpg);">
+    <div class="intro-text">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mt-3">
+          <p>best quality plants</p>
+          <h3>amazing variety of plants starting just 6$</h3>
+          <button>Shop Now</button>
+        </div>
+        <div class="col-lg-6 col-md-6 mt-3">
+          <img src="logo.png" alt="">
+    
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="afterIn container">
+    <div class=" row mt-5">
+      <div class="col-lg-4 col-md-4 mt-5">
+        <div class="d-flex">
+          <i style="font-size: 1.75rem;" class="fa-solid fa-spa mt-3 text-success"></i>
+          <div class="mx-4">
+            <h5>Plants Collection</h5>
+            <p>Any Plants for Your Space</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 mt-5">
+        <div class="d-flex">
+          <i style="font-size: 1.75rem;" class="fa-solid fa-briefcase mt-3 text-success"></i>
+          <div class="mx-4">
+            <h5>Free Shipping</h5>
+            <p>Free shipping on order</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 mt-5">
+        <div class="d-flex">
+          <i style="font-size: 1.75rem;" class="fa-solid fa-rotate mt-3 text-success"></i>
+          <div class="mx-4">
+            <h5>100% Money Back</h5>
+            <p>If the item didn't suit you</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+  <div class="container" style="margin-top: 10%;">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 mt-5">
+        <div class="card-show">
+          <img src="pic2.png" alt="">
+          <h5>Beautiful Plant Varieties</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur.</p>
+          <a href="#">SEE COLLECTION</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 mt-5">
+        <div class="card-show">
+          <img src="pic1.png" alt="">
+          <h5>Trendy Cactus Varieties</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur.</p>
+          <a href="#">SEE COLLECTION</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 mt-5">
+        <div class="card-show">
+          <img style="height: 56%;" src="pic3.png" alt="">
+          <h5>Gardening Accessories</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur.</p>
+          <a href="#">SEE COLLECTION</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+  <div class="container" style="margin-top: 10%;">
+    <center>
+      <h1>Featured Plants</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </center>
+    <div class="listProduct mt-5" data-aos="flip-left" data-aos-duration="2500">
+      <div  class="item">
+        <img src="images/web1.jpg" alt="">
+        <p style="color: gray;">Plants</p>
+        <h5>Boncellensis Secullant</h5>
+        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+        <div class="d-flex">
+        <p><strike style="color: gray;">$600</strike></p>
+        <p class="price mx-3">$ 499</p>
+        </div>
+        <button><i class="fa-solid fa-bag-shopping"></i></button>
+      </div>  
+    </div>
+  </div>
+
+
+  <!--  -->
+  <div class="container" style="margin-top: 10%;">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 mt-5">
+        <h4>Need help in choosing the right plants?</h4>
+        <br>
+        <a style="text-decoration: none; color: orangered;" href="#"><i class="fa-solid fa-phone"></i>  ASK FOR HELP</a>
+      </div>
+      <div class="col-lg-8 col-md-8 mt-5">
+        <p>Commodo sociosqu venenatis cras dolor sagittis integer luctus sem primis eget maecenas sedurna malesuada consectetuer.</p>
+        <p>Ornare integer commodo mauris et ligula purus, praesent cubilia laboriosam viverra. Mattis id rhoncus. Integer lacus eu volutpat fusce. Elit etiam phasellus suscipit suscipit dapibus, condimentum tempor quis, turpis luctus dolor sapien vivamus.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mt-5">
+        <h3>Testimonials</h3>
+        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="d-flex mt-5">
+          <img style="height: 250px;border-radius: 20px;" src="https://static.vecteezy.com/system/resources/thumbnails/031/546/771/small/beautiful-asian-girl-showing-the-natural-beauty-ai-generative-photo.jpg" alt="">
+          <div class="mx-3 mt-5">
+            <p>Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt. </p>
+            <h5>Oun MeyMey</h5>
+            <p>Web Developer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 mt-5">
+        <div class="mt-2">
+          <div class="d-flex">
+            <img style="height: 250px;border-radius: 20px;" src="https://static.vecteezy.com/system/resources/thumbnails/026/175/336/small_2x/asian-beauty-women-model-photo.jpg" alt="">
+            <div class="mx-3 mt-5">
+              <p>Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt. </p>
+              <h5>Oun Ka</h5>
+              <p>Architecter</p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <div class="d-flex">
+            <img style="height: 250px;border-radius: 20px;" src="https://img.freepik.com/premium-photo/asian-girls-education-happy-beautiful-asian-girl-is-smilling_911620-8519.jpg?w=360" alt="">
+            <div class="mx-3 mt-5">
+              <p>Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt. </p>
+              <h5>Oun Jing</h5>
+              <p>Doctor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+  <div class="interes">
+    <img class="w-100 h-100" src="https://i.pinimg.com/736x/c0/1d/ba/c01dba01bdf501f52ef1be98321d41af.jpg" alt="">
+    <div class="interes-text">
+      <h2>Interested? Shop This Plant Collection!</h2>
+      <p>Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.</p>
+      <button>Go To shop</button>
+    </div>
+  </div>
+
+  <!--  -->
+  <div class="footer container" style="margin-top: 10%;">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <img src="logo2.png" alt="">
+        <div class="grp-btn">
+          <button><i class="fa-brands fa-facebook-f"></i></button>
+          <button><i class="fa-brands fa-twitter"></i></button>
+          <button><i class="fa-brands fa-instagram"></i></button>
+          <button><i class="fa-brands fa-linkedin"></i></button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <h5>Quick Links</h5>
+        <div>
+          <a href="#">Introduce</a><br>
+          <a href="#">Know More About us</a><br>
+          <a href="#">Visit Us</a><br>
+          <a href="#">Let's Connect</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <h5>Important Links</h5>
+        <div>
+          <a href="#">Privacy Policy</a><br>
+          <a href="#">Shipping Details</a><br>
+          <a href="#">Term & Conditions</a><br>
+          <a href="#">Media Kit</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <h5>Get In Touch With Us For The Best Quality Plants & Succulents</h5>
+        <p>Qui dolore ipsum quia dolor sit amet, consec tetur adipisci velit, sed quia non numquam eius modi tempora incidunt lores ta porro ame.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 mt-5">
+        <p>Copyright 2024 by Lightttt</p>
+      </div>
+      <div class="col-lg-6 col-md-6 mt-5">
+        <p class="text-end">Powered by Lighttttt</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
